@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:og='http://ogp.me/ns#'>
+<head>
+<meta charset='UTF-8'/>
+<title><data:blog.title/></title>
+
+<b:skin><![CDATA[
+
+/* Variable definitions
+=======================
+
+]]></b:skin>
+
+<style type='text/css'>
+/*
+-----------------------------------------------
+Blogger Template Style
+Name         : Melnikana Blogger
+Designer     : Ana Melnik
+Release      : March 2021
+Version      : 1.0
+License      : MIT
+Email        : contato.melnikana@gmail.com
+-----------------------------------------------
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:&#39;&#39;;content:none}table{border-collapse:collapse;border-spacing:0}*/
+
+}*/
+
+body#layout #header {
+    width: 29%;
+    float: left;
+}
+
+/*--------- Cabeçalho CSS ----------*/
+
+#header #HTML1{
+    text-align: center;
+    max-whidth: 30%;
+}
+
+
+</style>
+
+</head>
+<body>
+<div id='wrapper'>
+
+<!--Cabeçalho-->
+<b:section id='header' showaddelement='yes'>
+  <b:widget id='HTML1' locked='true' title='Cabeçalho' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<span =""  style="font-family:&quot;;"><svg viewbox="0 0 1004.91846 441.8042" xmlns="http://www.w3.org/2000/svg"><text style="font-family: &quot;inkfree&quot; , &quot;ink free&quot;; font-size: 357.3030700683594px;" transform="translate(0 324.60742) scale(0.6774 1)">Melnikana</text></svg></span>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
+<!--Fim do Cabeçalho-->
+
+<!--Menu-->
+<nav id='navigation'>
+<ul>
+<li><a href=''>Ininio</a></li>
+<li><a href=''>Sobre</a></li>
+</ul>
+</nav>
+<!--fim menu-->
+<div class='clearfix'/>
+<section id='outer-wrapper'>
+<article id='article-wrapper'>
+<b:section class='main' id='main'>
+<b:widget id='Blog1' locked='true' title='Blog Posting' type='Blog'></b:widget>
+</b:section>
+</article>
+</section>
+<div class='clearfix'/>
+<aside id='sidebar-wrapper'>
+<b:section class='sidebar' id='sidebar' showaddelement='yes'></b:section>
+</aside>
+<div class='clearfix'/>
+<footer id='footer-wrapper'>
+<footer class='footer-left'>
+Copyright &#169; &lt;script&gt;new Date().getFullYear()&gt;2010&amp;&amp;document.write(&quot;&quot;+new Date().getFullYear());&lt;/script&gt; <a href='/' rel='copyright'><data:blog.title/></a>
+</footer>
+<footer class='footer-right'>
+Design by <a href='https://www.silvanaonline.blogspot.com/' target='_blank' title='Blogger'>Blog da Sil</a>
+</footer>
+</footer>
+</div>
+</body>
+</html>
